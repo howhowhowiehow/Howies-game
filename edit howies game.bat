@@ -1,0 +1,1 @@
+start idle "%~dp0howies game.py"
