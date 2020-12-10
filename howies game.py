@@ -1,5 +1,7 @@
 import time
 
+import webbrowser
+
 def GoToGameStop():
     print ("Howie keeps walking down the street, and sees game stop.")
     goInside = input("Should he go inside? ")
@@ -7,6 +9,10 @@ def GoToGameStop():
     if goInside == "yes":
         print()
         print("Howie goes into game stop. He goes into the mario section. Howie finds 100,000 dollars on the floor.")
+        print("Howie finds asteroids.")
+        buyAsteroids = input("should he buy it?")
+        if buyAsteroids == "yes":
+            webbrowser.open("http://www.dougmcinnes.com/html-5-asteroids/", new=1)
         
 letsPlay = input("Hello. Would you like to play the game? ")
 
